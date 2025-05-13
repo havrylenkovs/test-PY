@@ -35,7 +35,7 @@ while True:
         next_btn.click()
         time.sleep(3)
     except NoSuchElementException:
-        print("⛔ Кінець сторінок.")
+        print("⛔ Кінець сторінок!.")
         break
 
 driver.quit()
